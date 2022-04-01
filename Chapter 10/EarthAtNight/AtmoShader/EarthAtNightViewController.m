@@ -9,7 +9,8 @@
 
 #import "Atmosphere.h"
 #import "EarthAtNightViewController.h"
-
+#import <OpenGLES/ES2/glext.h>
+#import <OpenGLES/ES1/glext.h>
 #import "planet.h"
 #import "OpenglIOS.h"
 

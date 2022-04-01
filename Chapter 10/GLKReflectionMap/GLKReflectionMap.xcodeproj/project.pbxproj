@@ -186,6 +186,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CE99666A1412BEF100F2E47E;
@@ -316,6 +317,7 @@
 		CE99669F1412BEF200F2E47E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLKReflectionMap/GLKReflectionMap-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -328,6 +330,7 @@
 		CE9966A01412BEF200F2E47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLKReflectionMap/GLKReflectionMap-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";

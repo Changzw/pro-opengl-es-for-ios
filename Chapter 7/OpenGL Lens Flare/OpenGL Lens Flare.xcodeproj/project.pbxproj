@@ -242,6 +242,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CEC64A2413DDDA0A000F46DB;
@@ -384,6 +385,7 @@
 		CEC64A7213DDDA0C000F46DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGL Lens Flare/OpenGL Lens Flare-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -396,6 +398,7 @@
 		CEC64A7313DDDA0C000F46DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGL Lens Flare/OpenGL Lens Flare-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";

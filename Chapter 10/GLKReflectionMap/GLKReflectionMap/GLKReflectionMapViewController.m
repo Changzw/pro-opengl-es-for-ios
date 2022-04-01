@@ -8,7 +8,8 @@
 
 #import "planet.h"
 #import "GLKReflectionMapViewController.h"
-
+#import <OpenGLES/ES2/glext.h>
+//#import <OpenGLES/ES1/glext.h>
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
 
 // Uniform index.

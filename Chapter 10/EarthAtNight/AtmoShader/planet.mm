@@ -6,7 +6,8 @@
 //
 
 #import "planet.h"
-
+#import <OpenGLES/ES2/glext.h>
+#import <OpenGLES/ES1/glext.h>
 @implementation Planet
 
 - (id) init:(GLint)stacks slices:(GLint)slices radius:(GLfloat)radius squash:(GLfloat) squash textureFile:(NSString *)textureFile		//chapter 5

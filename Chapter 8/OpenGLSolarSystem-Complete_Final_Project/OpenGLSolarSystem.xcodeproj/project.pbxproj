@@ -358,6 +358,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CE269CC0141BF49C00704362;
@@ -524,6 +525,7 @@
 		CE269CF5141BF49D00704362 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLSolarSystem/OpenGLSolarSystem-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -536,6 +538,7 @@
 		CE269CF6141BF49D00704362 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenGLSolarSystem/OpenGLSolarSystem-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
